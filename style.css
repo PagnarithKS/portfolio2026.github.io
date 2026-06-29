@@ -63,6 +63,9 @@ section{
 
 
 
+.main_info{
+
+}
 
 
 
@@ -86,4 +89,24 @@ section{
     border-radius: 16px;
     box-shadow: 0 10px 30px rgba(138, 90, 106, 0.05);
     border: 1px solid rgba(251, 203, 219, 0.2);
+}
+
+
+
+.main-project{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+padding: 80px;
+    
+}
+
+
+.main_project h2{
+
+font-size:3rem;
+margin-bottom:50px;
 }
