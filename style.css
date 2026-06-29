@@ -73,12 +73,12 @@ section{
 
 
 
-.skill_list{
+.skill-list{
     display: flex;
     flex-direction: row;
 }
 
-.skill_container{
+.skill-container{
         flex: 1;
     min-width: 280px;
     background-color: var(--blanc);
