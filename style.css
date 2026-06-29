@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #f1eee8 ;
+    background-color: #f1f0ee ;
 }
 
 .landing{
@@ -48,7 +48,7 @@ section{
     align-items: center;
 
     padding: 25px 80px;
-    color: beige;
+    color: white;
     background-color: #0c0a09 ;
 }
 
@@ -58,6 +58,7 @@ section{
     display:flex;
     list-style:none;
     gap:50px;
+    color: white;
 
 }
 
@@ -142,3 +143,23 @@ width:90%;
     flex-direction:column;
     justify-content:center;
 }
+
+
+.project_text h3{
+    font-size:2rem;
+    margin-bottom:20px;
+  
+
+}
+
+
+
+.project_text p{
+
+    font-size:1.1rem;
+    line-height:1.8;
+    margin-bottom:40px;
+
+}
+
+.button{}
