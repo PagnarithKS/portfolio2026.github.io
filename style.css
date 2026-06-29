@@ -5,6 +5,9 @@
     box-sizing:border-box;
 }
 
+body{
+    background-color: #F5EEDF ;
+}
 
 .landing{
     height: 100vh;
@@ -27,4 +30,13 @@
 
 section{
     height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 25px 80px;
+    background-color: #2C2320 ;
 }
