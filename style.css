@@ -12,6 +12,7 @@ body{
 .landing{
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -33,10 +34,56 @@ section{
 }
 
 .navbar{
+    position:fixed;
+    top:0;
+    left:0;
+
+       width:100%;
+
+    z-index:1000;
+
+
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     padding: 25px 80px;
+    color: beige;
     background-color: #2C2320 ;
+}
+
+
+.menu{
+
+    display:flex;
+    list-style:none;
+    gap:50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skill_list{
+    display: flex;
+    flex-direction: row;
+}
+
+.skill_container{
+        flex: 1;
+    min-width: 280px;
+    background-color: var(--blanc);
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(138, 90, 106, 0.05);
+    border: 1px solid rgba(251, 203, 219, 0.2);
 }
