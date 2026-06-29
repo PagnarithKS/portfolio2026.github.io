@@ -105,6 +105,15 @@ padding: 80px;
     
 }
 
+.all-project{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+padding: 80px;
+}
+
 
 .main_project h2{
 
