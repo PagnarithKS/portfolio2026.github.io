@@ -6,7 +6,7 @@
 }
 
 
-.landing{
+.main_landing{
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -14,13 +14,17 @@
     text-align: center;
 }
 
-.landing h1{
+.main_landing h1{
     font-size: 160px;
 
 }
 
 
-.landing h2{
+.main_landing h2{
     font-size: 80px;
     
+}
+
+section{
+    height: 100vh;
 }
