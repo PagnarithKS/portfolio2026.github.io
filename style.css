@@ -246,21 +246,13 @@ width:90%;
     padding:15px 30px;
 
     background:rgba(255,255,255,0.15);
-
-
-
     text-decoration:none;
-
-    border:1px solid rgba(23, 168, 235, 0.651);
-
+    border:1px solid rgb(60, 166, 216);
     border-radius:12px;
-
     backdrop-filter:blur(10px);
-
     transition:0.3s;
-
     font-weight:bold;
-
+    color:#0c0a09
 }
 
 .btn:hover{
