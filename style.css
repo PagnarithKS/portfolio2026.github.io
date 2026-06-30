@@ -161,9 +161,15 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 
-padding: 80px;
-    
+padding: 80px;   
 }
+
+.main-project h2{
+    font-size:3rem;
+    margin-bottom:50px;
+    padding:80px;
+}
+
 
 .all-project{
 display: flex;
@@ -242,5 +248,16 @@ width:90%;
     align-items:center;
 
     padding:80px;
+
+}
+
+
+.icon{
+
+}
+
+.icon:hover{
+
+    transform: scale(1.2);
 
 }
